@@ -20,3 +20,9 @@ Total Nilai    : 170
 IPK Anda       : 3.50
 ===============================
 Data berhasil disimpan ke file: Anonymous-2012020202.csv
+
+
+in CSV:
+kode	matkul	sks	nilai_angka	nilai_huruf
+TI212121212	IoT	3	90	A
+TI23232232	PBO	3	80	B
