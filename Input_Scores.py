@@ -81,7 +81,7 @@ import csv
 nama_file = f'{nama_mahasiswa}-{nim_mahasiswa}.csv'
 
 with open(nama_file, mode='w', newline='') as file:
-    fieldnames = ["Kode", "Matakuliah", "SKS", "Nilai", "Huruf"]
+    fieldnames = ["kode", "matakuliah", "sks", "nilai_angka", "nilai_huruf"]
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
     writer.writeheader()
