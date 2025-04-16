@@ -39,7 +39,7 @@ while True:
 
     matkul = {
         "kode": kode_matkul,
-        "nama": nama_matkul,
+        "matkul": nama_matkul,
         "sks": sks_matkul,
         "nilai_angka": nilai_matkul,
         "nilai_huruf": nilai_huruf
@@ -81,7 +81,7 @@ import csv
 nama_file = f'{nama_mahasiswa}-{nim_mahasiswa}.csv'
 
 with open(nama_file, mode='w', newline='') as file:
-    fieldnames = ["kode", "matakuliah", "sks", "nilai_angka", "nilai_huruf"]
+    fieldnames = ["kode", "matkul", "sks", "nilai_angka", "nilai_huruf"]
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
     writer.writeheader()
